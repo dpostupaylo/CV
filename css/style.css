@@ -1,0 +1,122 @@
+/* Variables */
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700);
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  
+  width: 900px;
+  margin:0 auto; 
+}
+
+h1, h2, h3, h4, h5, h6{
+  line-height: 15px; 
+}
+
+/****header area*****/
+header {
+  background-color:azure;
+
+  padding: 15px;
+  display: flex;
+  column-gap: 15px;
+
+  border: solid 2px;
+  border-color: transparent transparent #87CEFA transparent;
+}
+
+#photo {
+  height: 200px;
+  width: 230px;
+  background-color: antiquewhite;
+}
+
+#contacts{
+  flex-direction: row;
+}
+
+#contacts > div {
+  display: flex;
+}
+
+#contacts > div > div >span {
+  display: block;
+}
+
+.contact {
+  vertical-align: middle;
+  column-gap: 5px;
+}
+
+
+/****main area*****/
+main{
+  display: flex;
+  padding: 15px;
+  row-gap: 20px;
+  column-gap: 15px;
+}
+
+
+.work_title {
+  font-size:x-large;
+  color: 	#87CEFA;
+  font-weight: bold;
+}
+
+.work_company {
+  font-weight:800;
+  color: #778899;
+
+}
+
+.work_stack {
+  font-weight: bold;
+  color: #778899;
+}
+
+.work {
+  display: block;
+}
+
+.work_item{
+  margin-bottom: 15px;
+  border: solid 1px;
+  border-color: transparent transparent #87CEFA transparent;
+}
+
+/*************side area*****************/
+#left_section{
+  min-width: 230px;
+}
+
+#left_section > div {
+  border: solid 1px;
+  border-color: transparent transparent #87CEFA transparent;
+}
+
+#skills_list{
+  padding-left: 20px;
+}
+
+.academic_title {
+  color: 	#87CEFA;
+  font-weight: bold;
+}
+
+.academic_company {
+  font-weight:800;
+  color: #778899;
+
+}
+
+.academic_item{
+  font-size:small;
+}
+
+.academic {
+  display: block;
+}
